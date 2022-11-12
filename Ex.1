@@ -1,0 +1,23 @@
+Ex.1
+Mkdir “Linux Exam”
+Cd “Linux Exam”
+Mkdir Files Strypes
+Cd Files
+Touch doc {1..5}.txt
+Touch report{1..5}.doc
+Touch results{1..5}.doc
+Touch statistics {1..2}.xls
+Cd ..
+Cd Strypes
+Mkdir DAY01 DAY02
+Cd ..
+Cd Files
+Cp *.txt ../Strypes/DAY01
+Mv *.doc ../Strypes/DAYO2
+Mv statisctics.xls .statistics1.xls
+Ls
+Ls –a
+Cd ..
+Cd Strypes
+Rm –r DAY02
+Ls
